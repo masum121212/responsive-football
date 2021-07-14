@@ -133,3 +133,7 @@ footer img{
     width: 483px;
     height: 110px;
 }
+.fab{
+    margin-right: 10px;
+    color: gray;
+}
