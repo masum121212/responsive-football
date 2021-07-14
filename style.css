@@ -139,12 +139,11 @@ footer img{
 }
 
 
-@media only screen and (min-width:688px) and (max-width:992px) {
+@media only screen and (max-width:688px) {
     .container{
-        width: 50%;
+        width: 100%;
     }
     header .players .news{
-        display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
     .banner-right .banner-right .player .news{
