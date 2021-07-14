@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+nav{
+    background-color: royalblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin-right: 36px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+
+    background-color: royalblue;
+    height: 667px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.banner-left{
+    width: 75%;
+    padding-left: 116px;
+    padding-top: 270px;
+}
+.banner-right{
+    width: 50%;
+    padding: 153px 120px 86px 40px;
+}
+.banner-left h1{
+    color: white;
+    font-weight: 700;
+    margin: 0px;
+    font-size: 64px;
+    line-height: 80px;
+    padding-bottom: 27px;
+}
+.banner-right img{
+    width: 556px;
+    height: 438px;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.container{
+    width: 1050px;
+    padding: 0px;
+}
+
+.players{
+    margin-top: 70px;
+    margin-bottom: 165px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player{
+    width: 300px;
+    height: 474px;
+    padding: 15px;
+    margin: 0px 10px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player img{
+    width: 100%;
+}
+.player h3{
+    font-size: 28px;
+}
+.player p{
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+.news{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 161px;
+}
+.news-details{
+    margin-right: 69px;
+}
+.news img{
+    width: 567px;
+    height: 427px;
+}
+.news-details h3{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.news-details p{
+    color: #6C6C6C;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.button {
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px 24px 10px 24px;
+    color: white;
+    background-color: #E02C6D;
+    cursor: progress;
+}
+
+
+footer  .footer-info{
+    color: black;
+    text-align: center;
+}
+footer img{
+    width: 483px;
+    height: 110px;
+}
