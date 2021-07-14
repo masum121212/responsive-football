@@ -1,4 +1,7 @@
+/* google font  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* navigation bar  */
 nav{
     background-color: royalblue;
     display: flex;
@@ -12,9 +15,8 @@ nav a{
     font-size: 14px;
     margin-right: 36px;
 }
-body{
-    font-family: 'Poppins', sans-serif;
-}
+
+/* heading  */
 header{
 
     background-color: royalblue;
@@ -49,7 +51,10 @@ header{
     height: 438px;
 }
 
-
+/* common style  */
+body{
+    font-family: 'Poppins', sans-serif;
+}
 main{
     display: flex;
     flex-direction: column;
@@ -61,6 +66,8 @@ main{
     width: 1050px;
     padding: 0px;
 }
+
+/* players  */
 
 .players{
     margin-top: 70px;
@@ -89,7 +96,7 @@ main{
 }
 
 
-
+/* news  */
 .news{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -114,6 +121,7 @@ main{
     margin-bottom: 24px;
 }
 
+/* button  */
 .button {
     text-decoration: none;
     font-size: 14px;
@@ -123,7 +131,7 @@ main{
     cursor: progress;
 }
 
-
+/* footer  */
 footer  .footer-info{
     color: black;
     text-align: center;
@@ -137,7 +145,7 @@ footer img{
     color: gray;
 }
 
-
+/* media  querry */
 @media only screen and (max-width:688px) {
     header{
         background-color: #2D25A0;
